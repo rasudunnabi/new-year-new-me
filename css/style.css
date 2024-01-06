@@ -1,0 +1,228 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+.header {
+  background-image: url(../images/banner/banner3.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.banner-content {
+  padding: 250px 230px 216px 1000px;
+  text-align: right;
+  flex-direction: column;
+}
+
+.banner-header {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 65px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.banner-des {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+.btn-banner {
+  border-radius: 5px;
+  background: #fff;
+  border: 0;
+  font-size: 20px;
+  color: #005fac;
+  font-weight: 700;
+  padding: 20px 25px;
+  transition: 0.3s;
+  border: 1px solid transparent;
+}
+.btn-banner:hover {
+  box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.349);
+}
+.failure {
+  display: flex;
+  margin: 100px 320px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  gap: 87px;
+}
+.failure-title {
+  color: #151414;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-weight: 700;
+}
+.failure-des {
+  color: #444343;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+.failure-list li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.failure-list > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.failure-list {
+  color: #444343;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+}
+.failure-list svg {
+  margin-right: 8px;
+}
+.plan-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding-left: 230px;
+  padding-right: 230px;
+  margin-bottom: 135px;
+}
+.plan-title {
+  text-align: center;
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  margin-top: 120px;
+}
+.icon-title {
+  color: #151414;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+.icon-des {
+  color: #737272;
+  font-size: 25px;
+  font-weight: 500;
+}
+.call {
+  position: relative;
+  /* top: 0;
+  left: 0; */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 130px;
+}
+.img1 {
+  position: absolute;
+}
+.img2 {
+  position: relative;
+}
+.call-title {
+  position: absolute;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  left: 450px;
+  top: 50px;
+}
+.btn-call {
+  border-radius: 5px;
+  background: #fff;
+  border: 0;
+  font-size: 20px;
+  color: #005fac;
+  font-weight: 700;
+  padding: 20px 25px;
+  transition: 0.3s;
+  border: 1px solid transparent;
+  position: absolute;
+  left: 450px;
+  top: 175px;
+}
+.btn-call:hover {
+  box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.349);
+}
+footer {
+  background-color: #151414;
+  display: flex;
+  /* height: 577px; */
+  padding: 130px 230px;
+  margin-top: 100px;
+  gap: 100px;
+}
+.footer-title {
+  color: #f8f8f8;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.footer-des {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+.footer-email {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.footer-number {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+.footer-title2 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 31px;
+}
+.input {
+  background-color: #151414;
+  border-radius: 8px;
+  border: 1px solid #ffffffc0;
+  padding: 15px 30px 15px 20px;
+  display: block;
+  margin-bottom: 16px;
+  color: #ffffffc0;
+}
+input::placeholder {
+  color: #ffffffc0;
+  font-size: 12px;
+}
+.btn-footer {
+  border-radius: 8px;
+  background: #005fac;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 0;
+  padding: 12px 30px;
+  transition: 0.3s;
+  border: 1px solid transparent;
+  font-size: 15px;
+}
+.btn-footer:hover {
+  background-color: #0077d8;
+}
+.footer-col {
+  width: 50%;
+}
+.social-links {
+  display: flex;
+  gap: 20px;
+}
